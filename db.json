@@ -1,0 +1,525 @@
+{
+  "guest.mahasiswa.jenis_kelamin": {
+    "all": {
+      "data": [
+        {
+          "jenis": "Laki-laki",
+          "total": 1000
+        },
+        {
+          "jenis": "Perempuan",
+          "total": 800
+        }
+      ]
+    }
+  },
+  "guest.mahasiswa.jenis_slta": {
+    "all": {
+      "data": [
+        {
+          "jenis": "SMA",
+          "total": 2000
+        },
+        {
+          "jenis": "SMK",
+          "total": 2000
+        },
+        {
+          "jenis": "MA",
+          "total": 100
+        }
+      ]
+    }
+  },
+  "guest.mahasiswa.rasio_dosen_mhs": {
+    "all": {
+      "rasio": { "text": "1 : 10", "fraction": 0.1 },
+      "data": [
+        {
+          "jenis": "Dosen",
+          "total": 200
+        },
+        {
+          "jenis": "Mahasiswa",
+          "total": 2000
+        }
+      ]
+    }
+  },
+  "guest.mahasiswa.persebaran_domisili": {
+    "all": {
+      "data": [
+        {
+          "provinsi": "Jawa Barat",
+          "total": 1000,
+          "geo": {
+            "lat": 0,
+            "lng": 0
+          }
+        },
+        {
+          "provinsi": "Jawa Tengah",
+          "total": 500,
+          "geo": {
+            "lat": 0,
+            "lng": 0
+          }
+        },
+        {
+          "provinsi": "Jawa Timur",
+          "total": 300,
+          "geo": {
+            "lat": 0,
+            "lng": 0
+          }
+        }
+      ]
+    },
+    "provinsi": {
+      "provinsi": "Jawa Barat",
+      "data": [
+        {
+          "kota": "Kota Bandung",
+          "total": 600,
+          "geo": {
+            "lat": 0,
+            "lng": 0
+          }
+        },
+        {
+          "kota": "Kabupaten Bandung",
+          "total": 300,
+          "geo": {
+            "lat": 0,
+            "lng": 0
+          }
+        },
+        {
+          "kota": "Kota Cimahi",
+          "total": 200,
+          "geo": {
+            "lat": 0,
+            "lng": 0
+          }
+        },
+        {
+          "kota": "Kota Garut",
+          "total": 100,
+          "geo": {
+            "lat": 0,
+            "lng": 0
+          }
+        }
+      ]
+    }
+  },
+  "guest.mahasiswa.agama": {
+    "all": {
+      "data": [
+        {
+          "agama": "Islam",
+          "total": 1500
+        },
+        {
+          "agama": "kristen",
+          "total": 210
+        },
+        {
+          "agama": "katolik",
+          "total": 90
+        },
+        {
+          "agama": "hindu",
+          "total": 20
+        },
+        {
+          "agama": "buddha",
+          "total": 20
+        },
+        {
+          "agama": "konguchu",
+          "total": 10
+        }
+      ]
+    }
+  },
+
+  "akademik.distribusi_nilai": {
+    "all": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "semester": 1,
+      "data": [
+        {
+          "mata_kuliah": "Dasar-dasar Pemrograman",
+          "indeks_nilai": [
+            {
+              "indeks": "A",
+              "total": 20
+            },
+            {
+              "indeks": "AB",
+              "total": 20
+            },
+            {
+              "indeks": "B",
+              "total": 40
+            }
+          ]
+        },
+        {
+          "mata_kuliah": "Struktur Data dan Algoritma",
+          "indeks_nilai": [
+            {
+              "indeks": "A",
+              "total": 2
+            },
+            {
+              "indeks": "AB",
+              "total": 10
+            },
+            {
+              "indeks": "B",
+              "total": 40
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "akademik.tren_ip_rata_rata": {
+    "all": {
+      "angkatan": "2024",
+      "data": [
+        {
+          "semester": 1,
+          "ip": 3.55
+        },
+        {
+          "semester": 2,
+          "ip": 3.65
+        }
+      ]
+    }
+  },
+  "akademik.tren_ip_tertinggi": {
+    "angkatan": {
+      "angkatan": "2024",
+      "data": [
+        {
+          "semester": 1,
+          "ip": 4.0
+        },
+        {
+          "semester": 2,
+          "ip": 3.9
+        }
+      ]
+    },
+    "semester": {
+      "semester": 1,
+      "data": [
+        {
+          "angkatan": "2024",
+          "ip": 4.0
+        },
+        {
+          "angkatan": "2023",
+          "ip": 3.85
+        }
+      ]
+    }
+  },
+  "akademik.tipe_tes_masuk": {
+    "angkatan": {
+      "angkatan": "2024",
+      "prodi": ["D3-TI", "D4-TI"],
+      "data": [
+        {
+          "tipe": "SNBT",
+          "total": 300
+        },
+        {
+          "tipe": "SNBP",
+          "total": 20
+        },
+        {
+          "tipe": "SBM",
+          "total": 10
+        }
+      ]
+    },
+    "prodi": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "kelas": ["2A", "2B", "2C"],
+      "data": [
+        {
+          "tipe": "SNBT",
+          "total": 100
+        },
+        {
+          "tipe": "SNBP",
+          "total": 20
+        },
+        {
+          "tipe": "SBM",
+          "total": 10
+        }
+      ]
+    },
+    "kelas": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "kelas": "2A",
+      "data": [
+        {
+          "tipe": "SNBT",
+          "total": 20
+        },
+        {
+          "tipe": "SNBP",
+          "total": 80
+        },
+        {
+          "tipe": "SBM",
+          "total": 1
+        }
+      ]
+    }
+  },
+
+  "mahasiswa.jumlah_mahasiswa": {
+    "angkatan": {
+      "angkatan": "2024",
+      "prodi": ["D3-TI", "D4-TI"],
+      "data": [
+        {
+          "prodi": "D3-TI",
+          "total": 180
+        },
+        {
+          "prodi": "D4-TI",
+          "total": 150
+        }
+      ]
+    },
+    "prodi": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "kelas": ["2A", "2B", "2C"],
+      "data": [
+        {
+          "kelas": "2A",
+          "total": 30
+        },
+        {
+          "kelas": "2B",
+          "total": 30
+        },
+        {
+          "kelas": "2C",
+          "total": 29
+        }
+      ]
+    }
+  },
+  "mahasiswa.jenis_kelamin": {
+    "angkatan": {
+      "angkatan": "2024",
+      "prodi": ["D3-TI", "D4-TI"],
+      "data": [
+        {
+          "jenis": "Laki-laki",
+          "total": 520
+        },
+        {
+          "jenis": "Perempuan",
+          "total": 450
+        }
+      ]
+    },
+    "prodi": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "kelas": ["2A", "2B", "2C"],
+      "data": [
+        {
+          "jenis": "Laki-laki",
+          "total": 320
+        },
+        {
+          "jenis": "Perempuan",
+          "total": 250
+        }
+      ]
+    },
+    "kelas": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "kelas": "2C",
+      "data": [
+        {
+          "jenis": "Laki-laki",
+          "total": 16
+        },
+        {
+          "jenis": "Perempuan",
+          "total": 15
+        }
+      ]
+    }
+  },
+  "mahasiswa.jenis_slta": {
+    "angkatan": {
+      "angkatan": "2024",
+      "prodi": ["D3-TI", "D4-TI"],
+      "data": [
+        {
+          "jenis": "SMA",
+          "total": 500
+        },
+        {
+          "jenis": "SMK",
+          "total": 400
+        },
+        {
+          "jenis": "MA",
+          "total": 50
+        }
+      ]
+    },
+    "prodi": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "kelas": ["2A", "2B", "2C"],
+      "data": [
+        {
+          "jenis": "SMA",
+          "total": 200
+        },
+        {
+          "jenis": "SMK",
+          "total": 200
+        },
+        {
+          "jenis": "MA",
+          "total": 20
+        }
+      ]
+    },
+    "kelas": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "kelas": "2C",
+      "data": [
+        {
+          "jenis": "SMA",
+          "total": 20
+        },
+        {
+          "jenis": "SMK",
+          "total": 10
+        },
+        {
+          "jenis": "MA",
+          "total": 1
+        }
+      ]
+    }
+  },
+  "mahasiswa.agama": {
+    "angkatan": {
+      "angkatan": "2024",
+      "prodi": ["D3-TI", "D4-TI"],
+      "data": [
+        {
+          "agama": "Islam",
+          "total": 500
+        },
+        {
+          "agama": "kristen",
+          "total": 110
+        },
+        {
+          "agama": "katolik",
+          "total": 70
+        },
+        {
+          "agama": "hindu",
+          "total": 20
+        },
+        {
+          "agama": "buddha",
+          "total": 20
+        },
+        {
+          "agama": "konguchu",
+          "total": 10
+        }
+      ]
+    },
+    "prodi": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "kelas": ["2A", "2B", "2C"],
+      "data": [
+        {
+          "agama": "Islam",
+          "total": 200
+        },
+        {
+          "agama": "kristen",
+          "total": 70
+        },
+        {
+          "agama": "katolik",
+          "total": 40
+        },
+        {
+          "agama": "hindu",
+          "total": 10
+        },
+        {
+          "agama": "buddha",
+          "total": 10
+        },
+        {
+          "agama": "konguchu",
+          "total": 10
+        }
+      ]
+    },
+    "kelas": {
+      "angkatan": "2024",
+      "prodi": "D3-TI",
+      "kelas": "2C",
+      "data": [
+        {
+          "agama": "Islam",
+          "total": 29
+        },
+        {
+          "agama": "kristen",
+          "total": 1
+        },
+        {
+          "agama": "katolik",
+          "total": 0
+        },
+        {
+          "agama": "hindu",
+          "total": 0
+        },
+        {
+          "agama": "buddha",
+          "total": 0
+        },
+        {
+          "agama": "konguchu",
+          "total": 0
+        }
+      ]
+    }
+  }
+}
