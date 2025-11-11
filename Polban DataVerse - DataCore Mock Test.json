@@ -1,0 +1,464 @@
+{
+  "v": 10,
+  "name": "Polban DataVerse - DataCore Mock Test",
+  "folders": [
+    {
+      "v": 10,
+      "name": "Guest - Data Mahasiswa",
+      "folders": [],
+      "requests": [
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/guest/mahasiswa/gender",
+          "name": "Jenis Kelamin",
+          "params": [],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhubp2al_227157a9-26b0-4d15-8f08-cd2fdee332f3"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/guest/mahasiswa/jenis-slta",
+          "name": "Jenis SLTA",
+          "params": [],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhubq287_9c027699-2e24-4160-873d-6b75b2654742"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/guest/mahasiswa/rasio-dosen-mhs",
+          "name": "Rasio Dosen Mahasiswa",
+          "params": [],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhubs50j_7da3ef32-df1f-42b9-acf5-65d3ab67aed5"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/guest/mahasiswa/domisili",
+          "name": "Domisili",
+          "params": [
+            {
+              "key": "provinsi",
+              "value": "",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhubslbv_2495037d-7fb3-4f60-8120-6bcc754a9bca"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/guest/mahasiswa/agama",
+          "name": "Agama",
+          "params": [],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhubsyel_d7e155a0-7c99-49d4-92a6-90eb5d8cd686"
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "variables": [],
+      "_ref_id": "coll_mhubow6f_885fe039-8e1a-4000-b61a-178059f1133b"
+    },
+    {
+      "v": 10,
+      "name": "Internal - Data Akademik",
+      "folders": [],
+      "requests": [
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/akademik/distribusi-nilai",
+          "name": "Distribusi Nilai",
+          "params": [
+            {
+              "key": "angkatan",
+              "value": "",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "prodi",
+              "value": "",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "semester",
+              "value": "",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhubuf7b_86bfeb49-4fa6-4310-916b-f1bafb38e3f8"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/akademik/tren-ip-rata-rata",
+          "name": "Tren IP rata-rata",
+          "params": [
+            {
+              "key": "angkatan",
+              "value": "2024",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhubwqh7_3c5cf2b6-b1a8-4f80-830a-2fc190396e6f"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/akademik/tren-ip-tertinggi",
+          "name": "Tren IP tertinggi",
+          "params": [
+            {
+              "key": "angkatan",
+              "value": "2024",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "semester",
+              "value": "1",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhubxw1h_6e45f0b6-4a01-4745-947c-18d71507de15"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/akademik/tipe-tes-masuk",
+          "name": "Tipe tes masuk",
+          "params": [
+            {
+              "key": "angkatan",
+              "value": "2024",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "prodi",
+              "value": "D3-TI",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "kelas",
+              "value": "2C",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhubyvch_35ff36ce-63c0-4cac-9703-1257e0be55b8"
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "variables": [],
+      "_ref_id": "coll_mhubu2fe_60c2b521-d16c-4340-9520-80ccf14cd1e1"
+    },
+    {
+      "v": 10,
+      "name": "Internal - Kemahasiswaan",
+      "folders": [],
+      "requests": [
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/mahasiswa/jumlah-mahasiswa",
+          "name": "Jumlah Mahasiswa",
+          "params": [
+            {
+              "key": "angkatan",
+              "value": "",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "prodi",
+              "value": "",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhuc0rcj_501db167-d784-42ca-9f03-42aacb318ef9"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/mahasiswa/gender",
+          "name": "Jenis Kelamin",
+          "params": [
+            {
+              "key": "angkatan",
+              "value": "2024",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "prodi",
+              "value": "D3-TI",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "kelas",
+              "value": "2C",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhuc0rcj_501db167-d784-42ca-9f03-42aacb318ef9"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/mahasiswa/jenis-slta",
+          "name": "Jenis SLTA",
+          "params": [
+            {
+              "key": "angkatan",
+              "value": "2024",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "prodi",
+              "value": "D3-TI",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "kelas",
+              "value": "2C",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhuc0rcj_501db167-d784-42ca-9f03-42aacb318ef9"
+        },
+        {
+          "v": "16",
+          "endpoint": "http://localhost:6767/api/v1/mahasiswa/agama",
+          "name": "Agama",
+          "params": [
+            {
+              "key": "angkatan",
+              "value": "2024",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "prodi",
+              "value": "D3-TI",
+              "active": true,
+              "description": ""
+            },
+            {
+              "key": "kelas",
+              "value": "2C",
+              "active": true,
+              "description": ""
+            }
+          ],
+          "headers": [],
+          "method": "GET",
+          "auth": {
+            "authType": "inherit",
+            "authActive": true
+          },
+          "preRequestScript": "",
+          "testScript": "",
+          "body": {
+            "contentType": null,
+            "body": null
+          },
+          "requestVariables": [],
+          "responses": {},
+          "_ref_id": "req_mhuc0rcj_501db167-d784-42ca-9f03-42aacb318ef9"
+        }
+      ],
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "headers": [],
+      "variables": [],
+      "_ref_id": "coll_mhuc0ij2_fcc6e30c-2fcd-4fb8-8705-ad80d2946815"
+    }
+  ],
+  "requests": [],
+  "auth": {
+    "authType": "none",
+    "authActive": true
+  },
+  "headers": [],
+  "variables": [],
+  "_ref_id": "coll_mhu8l3js_68e98189-dee0-4acb-8219-56dad07fcb6b"
+}

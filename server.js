@@ -110,5 +110,5 @@ app.get("/api/v1/mahasiswa/agama", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Mock API Database Berjalan pada port ${PORT}`);
+  console.log(`DataCore API Mock Berjalan pada port ${PORT}`);
 });

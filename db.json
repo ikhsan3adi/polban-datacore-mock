@@ -53,24 +53,24 @@
           "provinsi": "Jawa Barat",
           "total": 1000,
           "geo": {
-            "lat": 0,
-            "lng": 0
+            "lat": -7.090911,
+            "lng": 107.66888700000001
           }
         },
         {
           "provinsi": "Jawa Tengah",
           "total": 500,
           "geo": {
-            "lat": 0,
-            "lng": 0
+            "lat": -7.150975,
+            "lng": 110.1402594
           }
         },
         {
           "provinsi": "Jawa Timur",
           "total": 300,
           "geo": {
-            "lat": 0,
-            "lng": 0
+            "lat": -7.536063900000001,
+            "lng": 112.2384017
           }
         }
       ]
@@ -82,32 +82,32 @@
           "kota": "Kota Bandung",
           "total": 600,
           "geo": {
-            "lat": 0,
-            "lng": 0
+            "lat": -6.9147444,
+            "lng": 107.6098111
           }
         },
         {
           "kota": "Kabupaten Bandung",
           "total": 300,
           "geo": {
-            "lat": 0,
-            "lng": 0
+            "lat": -6.9147444,
+            "lng": 107.6098111
           }
         },
         {
           "kota": "Kota Cimahi",
           "total": 200,
           "geo": {
-            "lat": 0,
-            "lng": 0
+            "lat": -6.8802389999999995,
+            "lng": 107.5355
           }
         },
         {
-          "kota": "Kota Garut",
+          "kota": "Kabupaten Garut",
           "total": 100,
           "geo": {
-            "lat": 0,
-            "lng": 0
+            "lat": -7.227906,
+            "lng": 107.908699
           }
         }
       ]
@@ -121,23 +121,23 @@
           "total": 1500
         },
         {
-          "agama": "kristen",
+          "agama": "Kristen",
           "total": 210
         },
         {
-          "agama": "katolik",
+          "agama": "Katolik",
           "total": 90
         },
         {
-          "agama": "hindu",
+          "agama": "Hindu",
           "total": 20
         },
         {
-          "agama": "buddha",
+          "agama": "Buddha",
           "total": 20
         },
         {
-          "agama": "konguchu",
+          "agama": "Konguchu",
           "total": 10
         }
       ]
@@ -438,23 +438,23 @@
           "total": 500
         },
         {
-          "agama": "kristen",
+          "agama": "Kristen",
           "total": 110
         },
         {
-          "agama": "katolik",
+          "agama": "Katolik",
           "total": 70
         },
         {
-          "agama": "hindu",
+          "agama": "Hindu",
           "total": 20
         },
         {
-          "agama": "buddha",
+          "agama": "Buddha",
           "total": 20
         },
         {
-          "agama": "konguchu",
+          "agama": "Konguchu",
           "total": 10
         }
       ]
@@ -469,23 +469,23 @@
           "total": 200
         },
         {
-          "agama": "kristen",
+          "agama": "Kristen",
           "total": 70
         },
         {
-          "agama": "katolik",
+          "agama": "Katolik",
           "total": 40
         },
         {
-          "agama": "hindu",
+          "agama": "Hindu",
           "total": 10
         },
         {
-          "agama": "buddha",
+          "agama": "Buddha",
           "total": 10
         },
         {
-          "agama": "konguchu",
+          "agama": "Konguchu",
           "total": 10
         }
       ]
@@ -500,23 +500,23 @@
           "total": 29
         },
         {
-          "agama": "kristen",
+          "agama": "Kristen",
           "total": 1
         },
         {
-          "agama": "katolik",
+          "agama": "Katolik",
           "total": 0
         },
         {
-          "agama": "hindu",
+          "agama": "Hindu",
           "total": 0
         },
         {
-          "agama": "buddha",
+          "agama": "Buddha",
           "total": 0
         },
         {
-          "agama": "konguchu",
+          "agama": "Konguchu",
           "total": 0
         }
       ]
