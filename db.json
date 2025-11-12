@@ -521,5 +521,23 @@
         }
       ]
     }
+  },
+
+  "error": {
+    "400": {
+      "message": "Kesalahan request"
+    },
+    "401": {
+      "message": "Anda harus login terlebih dahulu"
+    },
+    "403": {
+      "message": "Anda tidak memiliki izin untuk melakukan hal tersebut"
+    },
+    "404": {
+      "message": "Resource tidak ditemukan!"
+    },
+    "500": {
+      "message": "Kesalahan server"
+    }
   }
 }
